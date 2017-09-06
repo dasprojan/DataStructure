@@ -44,5 +44,13 @@ public class BinaryTreeUtility {
 		System.out.println("\nLevel-order Traversal Recursive:");
 		ttr.levelOrderTraversalRec(binaryTree);
 		
+		//Level-order Traversal Non-Recursive:
+		System.out.println("\nLevel-order Traversal Non-Recursive:");
+		ttr.levelOrderTraversal(binaryTree);
+		
+		//Reverse Level-order Traversal Non-Recursive:
+		System.out.println("\nReverse Level-order Traversal Non-Recursive:");
+		ttr.revLevelOrderTraversal(binaryTree);
+		
 	}
 }
